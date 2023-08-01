@@ -9,7 +9,7 @@ import Triangle from './Loader/Loader';
 import receivingImages from './services/api';
 
 const IMAGES_PER_PAGE = 12;
-
+document.title = 'HMK-3 iMAGE'
 class App extends Component {
   state = {
     images: [],
