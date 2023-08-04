@@ -5,5 +5,9 @@ export default class ImageGallery extends Component {
   render() {
     return <ul className={style.gallery}>{this.props.children}</ul>;
   }
-}
+};
+
+ImageGallery.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
