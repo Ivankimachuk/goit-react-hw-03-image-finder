@@ -44,5 +44,4 @@ Modal.propTypes = {
   src: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
   onClose: PropTypes.func.isRequired,
-  onClick: PropTypes.func.isRequired,
 };
